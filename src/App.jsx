@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Login from "./components/Login";
 import SignUp from "./components/Signup";
-import BgImage from "../src/assets/background.svg";
+import BgImage from "./assets/background.svg";
 
 const bgStyle = {
   backgroundImage: `url(${BgImage})`,
