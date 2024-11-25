@@ -2,10 +2,9 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Login from "./components/Login";
 import SignUp from "./components/Signup";
-import BgImage from "./assets/background.svg";
 
 const bgStyle = {
-  backgroundImage: `url(${BgImage})`,
+  backgroundImage: `url(/background.svg)`,
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
   backgroundPosition: "center",
@@ -14,7 +13,7 @@ const bgStyle = {
 
 const App = () => {
   const [isSignUp, setIsSignUp] = useState(false);
-  
+
   const pageVariants = {
     hidden: { opacity: 0, x: 100 },
     visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
