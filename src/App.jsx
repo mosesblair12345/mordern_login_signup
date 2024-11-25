@@ -31,7 +31,7 @@ const App = () => {
             initial="hidden"
             animate="visible"
             exit="exit"
-            className="px-5 min-h-screen w-screen flex items-center justify-center overflow-auto"
+            className="px-5 min-h-[100vh] flex items-center justify-center"
           >
             <SignUp setIsSignUp={setIsSignUp} />
           </motion.div>
@@ -42,7 +42,7 @@ const App = () => {
             initial="hidden"
             animate="visible"
             exit="exit"
-            className="px-5 min-h-screen w-screen flex items-center justify-center overflow-auto"
+            className="px-5 min-h-[100vh] flex items-center justify-center"
           >
             <Login setIsSignUp={setIsSignUp} />
           </motion.div>
