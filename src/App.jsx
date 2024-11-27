@@ -34,7 +34,7 @@ const App = () => {
             initial="hidden"
             animate="visible"
             exit="exit"
-            className="px-5 flex items-center justify-center"
+            className="w-full max-w-md px-5 flex items-center justify-center"
           >
             <SignUp setIsSignUp={setIsSignUp} />
           </motion.div>
@@ -45,7 +45,7 @@ const App = () => {
             initial="hidden"
             animate="visible"
             exit="exit"
-            className="px-5 flex items-center justify-center "
+            className="w-full max-w-md px-5 flex items-center justify-center "
           >
             <Login setIsSignUp={setIsSignUp} />
           </motion.div>

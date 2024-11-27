@@ -11,7 +11,7 @@ const Login = ({ setIsSignUp }) => {
   };
 
   return (
-    <div className="bg-white px-6 py-8 text-black flex flex-col w-full max-w-md  rounded-lg shadow-lg shadow-gray-500/50">
+    <div className="w-full bg-white px-6 py-8 text-black flex flex-col rounded-lg shadow-lg shadow-gray-500/50">
       {/* Logo */}
       <div className="flex justify-center mb-3">
         <img src={logo} alt="Logo" className="h-16 w-16" />
