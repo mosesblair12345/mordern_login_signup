@@ -23,7 +23,7 @@ const App = () => {
   return (
     <div
       style={bgStyle}
-      className="overflow-x-hidden h-[100vh] flex items-center justify-center"
+      className="overflow-x-hidden h-[90vh] flex items-center justify-center"
     >
       <AnimatePresence mode="wait">
         {" "}
