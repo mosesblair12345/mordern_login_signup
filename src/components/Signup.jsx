@@ -19,7 +19,7 @@ const SignUp = ({ setIsSignUp }) => {
       <h1 className="text-3xl font-bold text-center mb-1">Create Account</h1>
       <h3 className="text-md  text-center mb-4">Sign up to continue</h3>
       <div>
-        <div className="mb-2 grid md:grid-cols-2 gap-5 ">
+        <div className="mb-2 grid md:grid-cols-2 md:gap-5 gap-2">
           <div>
             <label className="block text-gray-700 font-medium mb-2 text-sm">
               Username
@@ -53,11 +53,11 @@ const SignUp = ({ setIsSignUp }) => {
           />
         </div>
 
-        <div className="mb-2">
+        <div className="mb-4">
           <label className="text-gray-700 font-medium mb-2 block text-sm">
             Password
           </label>
-          <div className="relative">
+          <div className="relative ">
             <input
               type={showPassword ? "text" : "password"}
               className="w-full px-4 py-2 border border-gray-300 rounded-md 
