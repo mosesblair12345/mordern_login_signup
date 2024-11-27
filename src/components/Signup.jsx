@@ -11,7 +11,7 @@ const SignUp = ({ setIsSignUp }) => {
 
   return (
     <div
-      className="bg-white px-6 py-5 text-black flex flex-col w-full max-w-md mx-auto rounded-lg shadow-lg shadow-gray-500/50"
+      className="bg-white px-6 py-5 text-black flex flex-col w-full max-w-md rounded-lg shadow-lg shadow-gray-500/50"
     >
       {/* Logo */}
       <div className="flex justify-center mb-3">

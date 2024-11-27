@@ -21,7 +21,10 @@ const App = () => {
   };
 
   return (
-    <div style={bgStyle} className="overflow-x-hidden">
+    <div
+      style={bgStyle}
+      className="overflow-x-hidden h-[100vh] flex items-center justify-center"
+    >
       <AnimatePresence mode="wait">
         {" "}
         {isSignUp ? (
@@ -31,7 +34,7 @@ const App = () => {
             initial="hidden"
             animate="visible"
             exit="exit"
-            className="px-5 min-h-[100vh] flex items-center justify-center"
+            className="px-5 flex items-center justify-center"
           >
             <SignUp setIsSignUp={setIsSignUp} />
           </motion.div>
@@ -42,7 +45,7 @@ const App = () => {
             initial="hidden"
             animate="visible"
             exit="exit"
-            className="px-5 min-h-[100vh] flex items-center justify-center"
+            className="px-5 flex items-center justify-center "
           >
             <Login setIsSignUp={setIsSignUp} />
           </motion.div>
